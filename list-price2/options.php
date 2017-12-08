@@ -1,7 +1,7 @@
 <?php if (!defined('FW')) die('Forbidden');
 
 $options = array(
-    'title-service' => array(
+    'titleservice' => array(
         'type' => 'text',
         'value' => 'default value',
         'attr' => array('class' => 'custom-class', 'data-foo' => 'bar'),
@@ -10,7 +10,7 @@ $options = array(
         'help' => __('Help tip', ''),
     ),
 
-    'img-service' => array(
+    'imgservice' => array(
         'label' => __('img-service', ''),
         'type' => 'upload',
         'images_only' => true,

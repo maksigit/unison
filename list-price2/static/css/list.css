@@ -12,7 +12,8 @@
     padding-right: 10px; }
 .wrap-title-price {
     background: #fff;
-    display: none; }
+    /*display: none; */
+}
 .wrap-title-price li {
     display: flex;
     justify-content: space-between;
