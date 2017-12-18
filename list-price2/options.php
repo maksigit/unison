@@ -20,6 +20,25 @@ $options = array(
             __('Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium', '')
         ),
     ),
+    'icons'=>array(
+        'type'  => 'icon-v2',
+        'preview_size' => 'medium',
+        'modal_size' => 'medium',
+        'attr'  => array( 'class' => 'custom-class', 'data-foo' => 'bar' ),
+        'label' => __('Icon', '{domain}'),
+        'desc'  => __('Description', '{domain}'),
+        'help'  => __('Help tip', '{domain}'),
+    ),
+    'color_picker' => array(
+        'type' => 'color-picker',
+        'value' => '',
+        'attr' => array('class' => 'custom-class', 'data-foo' => 'bar'),
+        // palette colors array
+        'palettes' => array('#ba4e4e', '#0ce9ed', '#941940'),
+        'label' => __('Background', '{domain}'),
+        'desc' => __('Description', '{domain}'),
+        'help' => __('Help tip', '{domain}'),
+    ),
 
     'addable' => array(
         'type' => 'addable-popup',
@@ -59,5 +78,6 @@ $options = array(
                 ),
             ),
         ),
-    )
+    ),
+
 );
